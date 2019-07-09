@@ -7,6 +7,14 @@
     <Product />
     <Description>A wide variety of controls for Xamarin.Forms.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/krdmllr/CrossControls</PackageProjectUrl>
+    <PackageIconUrl>https://github.com/krdmllr/CrossControls/blob/master/logo.png</PackageIconUrl>
+    <RepositoryUrl>https://github.com/krdmllr/CrossControls</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Xamarin.Forms views controls</PackageTags>
+    <AssemblyVersion>0.1.0.1</AssemblyVersion>
+    <Version>0.1.0-beta</Version>
+    <FileVersion>0.1.0.1</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
