@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:crossControls="clr-namespace:CrossControls;assembly=CrossControls"
+             mc:Ignorable="d"
+             x:Class="CrossControls.Sample.Pages.GaugePage">
+    <ContentPage.Content>
+        <crossControls:GaugeControl x:Name="Gauge" Margin="20"   
+                                    HandleColor="Transparent"
+                                    GaugeWidth="25"
+                                    HandleDiameter="20">
+            <crossControls:GaugeControl.GaugeForegroundColors>
+                <x:Array Type="{x:Type Color}">
+                    <Color>Red</Color>
+                    <Color>Orange</Color>
+                    <Color>Yellow</Color>
+                    <Color>Green</Color>
+                    <Color>Blue</Color>
+                    <Color>Purple</Color> 
+                </x:Array>
+            </crossControls:GaugeControl.GaugeForegroundColors>
+            <crossControls:GaugeControl.GaugeBackgroundColors>
+                <x:Array Type="{x:Type Color}">
+                    <Color>DarkGray</Color>
+                </x:Array>
+            </crossControls:GaugeControl.GaugeBackgroundColors> 
+        </crossControls:GaugeControl>
+    </ContentPage.Content>
+</ContentPage>
